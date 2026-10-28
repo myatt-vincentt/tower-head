@@ -85,11 +85,11 @@ export const towerActions = {
       falls: current.falls + 1,
     });
   },
-  /** Dev checks: take the top item off. */
+  /** Dev: take the top item off. */
   pop() {
     set({ ...current, stack: current.stack.slice(0, -1) });
   },
-  /** Dev checks: a whole tower at once. */
+  /** Dev: a whole tower at once. */
   set(stack: Placed[]) {
     set({ ...current, stack: [...stack] });
   },

@@ -21,7 +21,7 @@ best 🏆 after a fall).
 - Dev preview without a camera: the media switcher starts on the SDK's "Person Shaking Head" video
   (add `dev-media/tower.mp4` for a clip with room above the head); S starts a round, F freezes it,
   keys 1–5 put a piece on, `?aim` drops pieces straight onto the tower, `?occ` draws the head
-  occluder. Checks in `audit/`. How it works: `PLAN.md`.
+  occluder. How it works: `PLAN.md`.
 
 ---
 

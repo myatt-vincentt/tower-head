@@ -11,10 +11,10 @@ export const live = {
   levels: [] as (Group | null)[],
   /** Where the next piece sits (Tower). */
   top: null as Group | null,
-  /** Dev checks only: stops the game loop's spawning and toppling. */
+  /** Dev only: stops the game loop's spawning and toppling. */
   frozen: false,
-  /** Dev checks only: drop every piece this far (cm) from the top of the tower. */
+  /** Dev only: drop every piece this far (cm) from the top of the tower. */
   aim: null as number | null,
-  /** Dev checks only: the game loop reports drops, catches and falls here. */
+  /** Dev only: the play log; the game loop reports drops, catches, falls. */
   log: null as ((event: string) => void) | null,
 };

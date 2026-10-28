@@ -1,8 +1,8 @@
 // Dev-only: keys 1–5 put that piece on top (in PIECES order, a random
-// colourway), Backspace takes the top one off, C clears, S starts a round, F freezes
-// the round (no new items, no falling over); ?aim drops every item straight
-// onto the tower (?aim=10: 10 cm to the side); window.__tower exposes the
-// store and a play log for checks. Scene.tsx lazy-imports this behind an
+// colourway), Backspace takes the top one off, C clears, S starts a round, F
+// freezes the round (no new items, no falling over); ?aim drops every item
+// straight onto the tower (?aim=10: 10 cm to the side); window.__tower exposes
+// the store and a play log for debugging. Scene.tsx lazy-imports this behind an
 // inline NODE_ENV check, so it never reaches production.
 import { useEffect } from "react";
 import { useThree } from "@react-three/fiber";
@@ -28,7 +28,7 @@ const DevKeys = () => {
       events,
       actions: {
         ...towerActions,
-        /** Dev checks: a tower from piece indices, or "piece:look" strings. */
+        /** Dev: a tower from piece indices, or "piece:look" strings. */
         build(list: (number | string)[]) {
           towerActions.set(
             list.map((x) => {
