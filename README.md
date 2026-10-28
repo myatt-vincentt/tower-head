@@ -12,6 +12,7 @@ best 🏆 after a fall).
   between, mugs and plants make it touchy. You land on the top piece's width, so a mug is harder to
   land on than a laptop. A catch near the edge knocks the tower; a miss bounces off and tumbles
   away, with no penalty.
+- Thumbnail: `public/images/tower-head-thumbnail.jpg` (mid-balance with six pieces; the share image).
 - The pieces are built in code (`src/tower/pieces.ts`): soft clay shapes with a few colourways
   each. To add or change one, edit that file.
 - The tower sits on the SDK's canonical head fit, steadied by a speed-adaptive spring

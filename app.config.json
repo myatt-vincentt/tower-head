@@ -1,10 +1,10 @@
 {
   "title": "Tower Head",
   "description": "Balance a wobbly tower of books, laptops, mugs, tissue boxes and plants on your head. Catch each piece, tilt against the lean, and see how high you can go. Right in your browser.",
-  "image": "/images/og-default.jpg",
+  "image": "/images/tower-head-thumbnail.jpg",
   "imageAlt": "Tower Head — a camera experience built with Vincentt",
-  "imageWidth": 1200,
-  "imageHeight": 630,
+  "imageWidth": 941,
+  "imageHeight": 1672,
   "imageType": "image/jpeg",
   "url": "https://tower-head.vincentt.app"
 }
